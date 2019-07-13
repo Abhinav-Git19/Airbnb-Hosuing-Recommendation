@@ -1,0 +1,20 @@
+# A tibble: 17 x 2
+   neighbourhood_group     n
+                 <chr> <int>
+ 1             Ballard   230
+ 2         Beacon Hill   118
+ 3        Capitol Hill   567
+ 4             Cascade    89
+ 5        Central Area   369
+ 6            Delridge    79
+ 7            Downtown   530
+ 8            Interbay    11
+ 9           Lake City    67
+10            Magnolia    61
+11           Northgate    80
+12 Other neighborhoods   794
+13          Queen Anne   295
+14      Rainier Valley   159
+15         Seward Park    44
+16 University District   122
+17        West Seattle   203

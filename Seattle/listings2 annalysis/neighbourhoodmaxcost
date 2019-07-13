@@ -1,0 +1,22 @@
+> listings2 %>% group_by(neighbourhood_group) %>%
++   summarise(max_price=max(price))
+# A tibble: 17 x 2
+   neighbourhood_group max_price
+                 <chr>     <dbl>
+ 1             Ballard       475
+ 2         Beacon Hill       399
+ 3        Capitol Hill       750
+ 4             Cascade       775
+ 5        Central Area       500
+ 6            Delridge       300
+ 7            Downtown       999
+ 8            Interbay       250
+ 9           Lake City       252
+10            Magnolia       950
+11           Northgate       200
+12 Other neighborhoods      1000
+13          Queen Anne       975
+14      Rainier Valley       300
+15         Seward Park       375
+16 University District       350
+17        West Seattle       495

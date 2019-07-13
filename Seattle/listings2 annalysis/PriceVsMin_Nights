@@ -1,0 +1,10 @@
+	Pearson's product-moment correlation
+
+data:  listings2$price and listings2$minimum_nights
+t = 1.0687, df = 3816, p-value = 0.2853
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.01443214  0.04899210
+sample estimates:
+       cor 
+0.01729738 
